@@ -16,7 +16,7 @@
 .nav-logo{
     width: 113px;
     height: 50px;
-    background-image: url("amazon_logo.jpeg");
+    background-image: url("Images/amazon_logo.jpeg");
     background-size: cover; 
     border: 1.5px solid transparent;    
 }
@@ -141,7 +141,7 @@ span{
     font-weight:700;
 }
 .hero{
-    background-image: url("hero.jpeg");
+    background-image: url("Images/hero.jpeg");
     background-size: cover;
     height: 375px; 
     display: flex;
