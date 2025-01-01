@@ -1,0 +1,230 @@
+*{
+    margin : 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box; 
+    /* margin and padding are included in content area   */
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    width: 113px;
+    height: 50px;
+    background-image: url("amazon_logo.jpeg");
+    background-size: cover; 
+    border: 1.5px solid transparent;    
+}
+.nav-logo:hover{
+    border: 1.5px solid #ffffff;
+}
+.nav-location{
+    width: 88px;
+    height: 40px;
+    align-items: center;
+    border: 1.5px solid transparent;  
+}
+.nav-location:hover{
+    border: 1.5px solid #ffffff;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 8px;
+}
+.add-second{
+    color: #ffffff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    width: 450px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border: 2.5px solid transparent;  
+}
+.nav-search:hover{
+    border: 2.5px solid rgb(165, 97, 42);
+}
+.select-option{
+    height: 40px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.select-option:hover{
+    background-color: #ffffffe8;
+}
+.input-option{
+    height: 40px;
+    width: 100%;
+    border: none;
+    font-size: 1rem;
+}
+.search-icon{
+    border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    height: 40px;
+    background-color: rgb(255, 187, 0);
+    border: none;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    align-items: center;
+}
+.search-icon:hover{
+    background-color:rgb(255, 153, 0);
+}
+span{
+    color: #ffffff;
+    font-size: 12px;
+}
+.account{
+    color: #ffffff;
+    font-size: 14px;
+}
+.nav-sign{
+    border:1.5px solid transparent;
+}
+.nav-return{
+    border:1.5px solid transparent;
+}
+
+.nav-sign:hover{
+    border:1.5px solid #ffffff;
+}
+.nav-return:hover{
+    border:1.5px solid #ffffff;
+}
+.cart{
+    font-size: 30px;
+    color:#ffffff ;
+    display: flex;
+    align-items: end;
+}
+.nav-cart{
+    font-size: 0.85rem;
+}
+.panel{
+    color: #ffffff;
+    font-size: 1rem;
+}
+.panel{
+    background-color: #222f3d;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.all {
+    color: #ffffff;
+    width: 74%;
+}
+.all p{
+    display: inline;
+    margin-left: 15px;
+    border: transparent 1.5px solid;
+}
+.all p:hover{
+    border: #ffffff 1.5px solid;
+}
+.menu{
+    color: #ffffff;
+    font-weight:700;
+}
+.hero{
+    background-image: url("hero.jpeg");
+    background-size: cover;
+    height: 375px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;  
+}
+.herop{
+    background-color: #ffffff;
+    color:black;
+    width: 95%;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.text{
+    text-decoration: none;
+    color: #007185;
+}
+.text:hover{
+    color: red;
+    text-decoration: underline;
+}
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #eec9f0;
+    justify-content: space-evenly;
+}
+.box{
+    height: 380px;
+    background-color: #ffffff;
+    width: 23%;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+}
+.img{
+    background-size: cover;
+    height: 300px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.box-content{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.footer-panel1{
+    height: 40px;
+    font-size: 0.86rem;
+    background-color: #37475a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer-panel2{
+    background-color: #222f3d;
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.para{
+    color: #ffffff;
+    margin-top: 10px;
+}
+.footer-panel2 a{
+    color: #dddddd;
+    text-decoration: none ;
+    display: block;
+    margin-top: 5px;
+}
+.footer-panel2 a:hover{
+    text-decoration: underline;
+    color: #dddddd;
+}
+.footer-panel3{
+    height: 70px;
+    font-size: .85rem;
+    background-color:#222f3d;
+    color:#dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

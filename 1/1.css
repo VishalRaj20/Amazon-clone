@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+h1 {
+    color: blue;
+}
+
+.invisible{
+    visibility: hidden;
+}
